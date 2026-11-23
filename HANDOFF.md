@@ -133,3 +133,57 @@ Read ../HANDOFF.md. This continues the EHS website redesign on UAE DS 4.0 in Fig
 (design only). Do not build anything yet. Check figma and aegov are connected, summarise
 where we are in 10 lines, list pending approvals, then wait. Follow the redesign-page skill.
 ```
+
+## 11. Session 2026-11-23: repo and plugin setup (context for the next chat)
+Read this if you continue from a new chat; it replaces the conversation history.
+
+**Figma check (read only, nothing changed)**
+- Figma MCP account: "Future Internet", Full seat on Future Internet Team (Pro). aegov MCP works.
+- Working file pages found: Redesign (4.0) 24:1143, Local Components 97:26387, QA 24:1144.
+  The `Screens` page (0:1, originals) was NOT found: ask the user before relying on it.
+- `Card Pattern` 117:6259 is already on Local Components; it has 3 variants not yet
+  reviewed: Service Card V2, Variant7, Home Selection Cards. Property still "Property 1".
+- `Pattern / Initiative image card` 145:4114 sits as variant `Property 1=Initiative image card`
+  in a set `Pattern` 148:14476. `sub-page-banner` master measured 270 high.
+- Redesign (4.0) frames were not re-checked in this session.
+
+**Brand colours (decided)**
+- One shared library for all clients (`1yvKuvJyvNNT9tTv8QmBI5`). A client brand is a MODE of
+  the library's Color System collection; EHS = `EHSblue` (primary only). Custom components
+  stay in each project's Figma file, never in the library.
+- Existing EHS frames were built before EHSblue: change mode only on copies, when asked.
+- Watch the Figma Pro limit on modes per collection; fallback = a small Brand collection.
+
+**Repos (pushed, GitHub account `futureinternet-claude`, both private)**
+- `uae-ds4-toolkit` = `D:\Future Internet\UAE-Design-System-4.0\toolkit`: Claude Code plugin
+  with 9 skills (redesign-page, capture-reference, figma-build-rules, aegov-card,
+  figma-file-organisation, qa-check, inner-page-layouts, page-from-content, ds4-library
+  with library keys, library changes, 3.0→4.0 mapping, aegov MCP usage, Figma API lessons)
+  plus `templates/` for new client projects.
+- `ehs-redesign` = `D:\Future Internet\UAE-Design-System-4.0\EHS`: root CLAUDE.md (EHS facts,
+  templates, registry, showcase direction, tidy-up queue), DECISIONS.md, design/CLAUDE.md
+  (always-on core rules), web/CLAUDE.md (HTML placeholder), project skill sub-page-banner,
+  references/, assets/. Old full files kept: CLAUDE.old.md, HANDOFF.old.md.
+- Why this split: rules reused by every client live in the toolkit; project facts in the
+  project repo; design and HTML are folders in ONE project repo (they share outlines,
+  assets and decisions). Inner-page layouts are shared across clients; Home and custom
+  content pages are per client (skill page-from-content).
+
+**Plugin**
+- Installed at user scope on this PC via CLI (the desktop Plugins page does not list
+  private marketplaces): `claude plugin marketplace add futureinternet-claude/uae-ds4-toolkit`
+  then `claude plugin install uae-ds4-toolkit@uae-ds4-toolkit`.
+- After a toolkit change is pushed: `claude plugin marketplace update uae-ds4-toolkit` and
+  `claude plugin update uae-ds4-toolkit@uae-ds4-toolkit`.
+- Toolkit changes only when rules, the shared library, mapping or shared layouts change;
+  Figma design work never needs a toolkit update.
+
+**Working routine**
+- Start design sessions in `EHS\design`. Sonnet low/medium for building, `/clear` between pages.
+- GitHub Desktop on both PCs (home PC: clone both repos to the same paths, install plugin
+  with the two commands above, connect figma + aegov MCPs). Pull before starting, commit
+  and push before leaving.
+
+**Still pending from the user** (unchanged): section 6 approvals (Facilities 155:4134,
+Prevention deck 164:4313, insert both into a copy of Home v2), news card image option,
+tidy-up queue, data/content gaps, contrast checks.
