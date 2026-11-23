@@ -138,8 +138,14 @@ user approves its decisions.
 - User feedback: not full width. Panel hugs its content (left column 520, side column
   360, about 882 wide), start-aligned under its nav item; the open state's hover area is
   trimmed to the panel so leaving the panel closes it. Apply to every menu.
-- Next (after feedback): Digital Participations, Open Data, About Us, Media Center,
-  Awareness Center with the groupings proposed in the plan.
+- All 6 menus built 2026-11-23 (awaiting approval), live links only, groupings as
+  planned. [new copy] for approval: eyebrows (Take part, Data sets, About EHS, Health
+  topics), group titles (Real Time Data, Who we are, Strategies, Quality and policies),
+  side headings (Contact and policies, Policies and plans, More about EHS, More topics),
+  every one-line description, and feature cards (Contact the Director General, Bayanat.ae,
+  Careers, Blood Donation). Open Data descriptions reuse the approved deck sub-lines.
+  Media Center has no side column (3 links). Awareness Center panel is shifted left to
+  stay inside the page.
 
 ## Services Directory
 - Filter sidebar: Type, Gender, Age Group and Health Condition groups each use an
