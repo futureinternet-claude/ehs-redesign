@@ -71,8 +71,20 @@ user approves its decisions.
     live page). "Need help?" Aegov-Card with live channels (Toll free call 8008877,
     Working Time 7:30 AM-3:30 PM, info@ehs.gov.ae, Tawasul 171) + Contact Us. No live chat.
   - Open: search field still shows the mic icon (copied as approved on the directory);
-    rows are frames, candidate `Pattern / Service row` if reused on Service listing;
     client approval of the [new] copy.
+  - Later the same day (user's redesign): category panel and Need help are plain boxes,
+    not Aegov-Card (`Container / Category panel` 195:6024, `Container / Need help`
+    198:5577, aegreen/700); rows are `Pattern / Service row` 198:5480 instances; Find a
+    doctor is solid primary/600 with white text.
+- Our Updates (2026-11-23, built, awaiting approval): `Our Updates (v2 news)` 201:5499 in
+  Home v2, old 162:19468 hidden. Pattern `news-carousel-image-cards` (user's ref).
+  Eyebrow "Media Center" (live menu name, uppercase via text case), H2 "Our Updates"
+  (live), no lede; "View all" outline button + arrows on the right; live tabs News /
+  Events / E-Consultations kept; 4 live news as `Card Pattern` = News card v2 (3 full + a
+  peek). Live dates corrected (03 Nov, 21 Oct, 16 Oct, 05 Oct 2026). Old News card
+  variant kept for Home v1 and the 1920 Sample.
+  - Open: 4th card image (Global Patient Safety Award 2026) not captured, grey
+    placeholder; Events and E-Consultations tab content not designed.
 - Health Care Facilities: selectable list on the left (name and location), map on the
   right with the details card inside it (type, full hours, location, Directions and Call
   buttons, View Details). Open: captured map image, each centre's coordinates, phone

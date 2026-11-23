@@ -55,7 +55,7 @@ these unless asked.
 | Component | Kind | Figma page | ID | Properties / variants | Used on |
 |---|---|---|---|---|---|
 | `sub-page-banner` | local component | Local Components | 97:26409 | Page Title, Page Subtitle, Content slot. Measured 270 high on 2026-11-23 | all sub-pages |
-| `Card Pattern` | component set | Local Components | 117:6259 | Property 1 = Service / Initiative / News / Facility card; also found: Service Card V2, Variant7, Home Selection Cards (not yet reviewed) | Home, Services Directory |
+| `Card Pattern` | component set | Local Components | 117:6259 | Property 1 = Service / Initiative / News / Facility card; News card v2 201:5479 (plain container, not Aegov-Card: image 240 + white fade, date, category badge, title 3 lines, View Details; props News title, News date); also found: Service Card V2, Variant7, Home Selection Cards (not yet reviewed) | Home, Services Directory |
 | `Pattern / Initiative image card` | custom container | Local Components | 145:4114 | Title, Body. Scrim = aeblack-950 value, 0 to 92% fade (a gradient stop bound to a variable loses transparency). Sits as variant `Property 1=Initiative image card` in set `Pattern` 148:14476 | Home (Initiatives) |
 | `Pattern / Facility selector item` | custom container set | Local Components | 153:4172 | State = Default / Hover / Selected; Name, Location | Home (Facilities) |
 | `Pattern / Facility details card` | custom container | Local Components | 154:4171 | Name, Hours, Location; facility type badge exposed | Home (Facilities) |
