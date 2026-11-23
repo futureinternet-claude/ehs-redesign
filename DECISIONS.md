@@ -91,7 +91,7 @@ user approves its decisions.
   variant kept for Home v1 and the 1920 Sample.
   - Open: 4th card image (Global Patient Safety Award 2026) not captured, grey
     placeholder.
-  - Prototype (built, awaiting approval): tabs + cards replaced by the interactive
+  - Prototype (approved 2026-11-23): tabs + cards replaced by the interactive
     `Pattern / Our Updates carousel` 213:5856 (instance 213:5879); old tabs, card row and
     heading arrows hidden. Arrows moved to the tabs row (a click can only change its own
     component). Events tab: 4 live events (photos not captured, placeholders);
