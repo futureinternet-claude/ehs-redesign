@@ -138,8 +138,8 @@ user approves its decisions.
 - User feedback: not full width. Panel hugs its content (left column 520, side column
   360, about 882 wide), start-aligned under its nav item; the open state's hover area is
   trimmed to the panel so leaving the panel closes it. Apply to every menu.
-- All 6 menus built 2026-11-23 (awaiting approval), live links only, groupings as
-  planned. [new copy] for approval: eyebrows (Take part, Data sets, About EHS, Health
+- All 6 menus built and approved 2026-11-23 (new copy approved), live links only,
+  groupings as planned. New copy: eyebrows (Take part, Data sets, About EHS, Health
   topics), group titles (Real Time Data, Who we are, Strategies, Quality and policies),
   side headings (Contact and policies, Policies and plans, More about EHS, More topics),
   every one-line description, and feature cards (Contact the Director General, Bayanat.ae,
