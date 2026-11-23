@@ -64,7 +64,8 @@ these unless asked.
 
 In-frame containers (not components): `Container / Stacked deck panel` (Prevention
 section), `Container / Facility map` (Facilities section). Home v2 Services 197:5346:
-`body-content` 195:6024 (category panel, user's box: whitely/50, radius-2xl, shadow),
+`Container / Category panel` 195:6024 (whitely/50, radius-2xl, padding and gap
+spacing-6, custom shadow kept by the user's choice),
 `Container / Gradient panel (Find a doctor)` 197:5367 (now solid primary/600, white
 text), `Container / Need help` 198:5577 (aegreen/700, white text).
 
