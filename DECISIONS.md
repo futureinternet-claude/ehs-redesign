@@ -53,6 +53,9 @@ user approves its decisions.
     old stage 189:5097 and controls 189:5101 hidden). Card icons: ChartBar, Pulse,
     MapPin, ChartPie, Coins, BookOpen (Fill weight); tones camel, aegreen, seablue,
     primary, camel, aegreen. Arrows disabled at 1/6 and 6/6 (no loop).
+  - Placed in Home v2 as `Open Data (v2 deck)` 210:4734 (Home v2 padding); the
+    Prevention `Check Ups` 162:19409 hidden, not deleted (answers the open question:
+    Prevention is off Home v2 for now).
   - Open: whether the Prevention section stays anywhere on Home; client approval of the
     new copy.
 - Services (2026-11-23, approved on `Services (v2 panel)` 193:5102, standalone frame).
