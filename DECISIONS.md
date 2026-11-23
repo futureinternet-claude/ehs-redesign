@@ -90,7 +90,13 @@ user approves its decisions.
   peek). Live dates corrected (03 Nov, 21 Oct, 16 Oct, 05 Oct 2026). Old News card
   variant kept for Home v1 and the 1920 Sample.
   - Open: 4th card image (Global Patient Safety Award 2026) not captured, grey
-    placeholder; Events and E-Consultations tab content not designed.
+    placeholder.
+  - Prototype (built, awaiting approval): tabs + cards replaced by the interactive
+    `Pattern / Our Updates carousel` 213:5856 (instance 213:5879); old tabs, card row and
+    heading arrows hidden. Arrows moved to the tabs row (a click can only change its own
+    component). Events tab: 4 live events (photos not captured, placeholders);
+    E-Consultations tab: 5 live items on the new E-Consultation card (status badge
+    Current = aegreen, Planned = neutral; "Closing/Opening dd/mm/yyyy").
 - Health Care Facilities (2026-11-23, approved): `Health Care Facilities
   (v2 hours)` 206:4625 in Home v2, old selector + map section 150:14714 hidden. Pattern
   `facility-finder-hours-timeline` (user's ref). H2 + View All; emirate tabs "All" [new
