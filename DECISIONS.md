@@ -15,11 +15,43 @@ user approves its decisions.
 - Hero: slide 1 only in the design, other slides listed in the outline. This exception is
   Home-only; no other page may drop content. (Mapping: hero slider = image banner +
   Aegov-Pagination-Compact + Aegov-Button; aegov-header-banner not used.)
+- Reusing a section's layout for new content: change the card text, counter, disclaimer
+  and icons together; no leftover text or icons from the old content.
 - Latest Initiatives: image-led cards in 4 columns (`Pattern / Initiative image card`).
 - Prevention check-ups (new section, not on the live site), placed after Latest
   Initiatives: stacked deck, state 1 of 4 shown (card 1 on top, two plain cards behind).
   Content comes from the user's brief. Open: clinical sign-off on ages and intervals, CTA
   link target, Arabic copy, card 4 meta text ("Ask your doctor").
+- Open Data (2026-11-23): reuses the Prevention section layout (left column + gradient
+  panel with `Pattern / Deck card`) and replaces its content on Home. Source:
+  https://www.ehs.gov.ae/en/open-data (intro + 16 "Read more" links, no card descriptions
+  on the live page). Option A (live text only) was chosen, then the user built the left
+  column with the Option B copy, which stands as built (user's own edit):
+  - Left: eyebrow "Open Data"; H2 "Open Data For Everyone" (new copy); lede = live intro
+    verbatim; rows: Reports and statistics / Real time data / Propose Display or Request
+    Data (bold labels and the "Can't find what you need? Ask for it." line are new copy);
+    CTA "Explore Open Data" (new label) -> /en/open-data.
+  - Deck: 6 datasets (Real Time Data - Outpatient Appointments, Numbers & Statistics,
+    Geospatial Data - Hospitals, Open Data Charts, EHS Budget, EHS Research), order as
+    listed but Numbers & Statistics on top (1 / 6). Approved card content (title / sub-line
+    / badge / meta):
+    1. Numbers & Statistics / Search by Category, SDGs and Date range / Statistics /
+       Downloadable reports
+    2. Real Time Data - Outpatient Appointments / Total appointments by citizenship / Real
+       time / By facility, emirate and age group
+    3. Geospatial Data - Hospitals / Hospitals on the map, with directions / Map /
+       Outpatient and Inpatient Occupancy 2021 (live typo "InpatientOccupancy" fixed)
+    4. Open Data Charts / Choose a topic to view the charts. / Charts / 2023, 2024, 2025
+    5. EHS Budget / Budget Allocation, Revenues and Expenses / Finance / Budget 2022 to 2024
+    6. EHS Research / Research Publications, Data Driven Reports and more / Research /
+       4 resources
+    Disclaimer: "Use of this data is subject to the Open Data Usage Policy." (links to the
+    policy page). Each card links to its dataset page.
+  - Approved 2026-11-23 on `Check Ups (v2 open data)` 189:5075. Not done: left-column
+    icons still Prevention ones (suggested ChartBar / Pulse / ChatCircleText); icons of
+    the cards behind the top card not swapped.
+  - Open: whether the Prevention section stays anywhere on Home; client approval of the
+    new copy.
 - Health Care Facilities: selectable list on the left (name and location), map on the
   right with the details card inside it (type, full hours, location, Directions and Call
   buttons, View Details). Open: captured map image, each centre's coordinates, phone

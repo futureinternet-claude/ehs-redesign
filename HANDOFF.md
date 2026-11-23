@@ -52,6 +52,10 @@ is bound to DLS variables. The user is a UI/UX designer and front-end developer.
     Almadar selected) and `... - Alnahwa selected` 156:4227
   - `EHS / Home / Prevention check-ups (stacked deck)` 164:4313
   - `Card Pattern` component set 117:6259 (still on this page; tidy-up queue says move)
+  - 2026-11-23 check: 155:4134, 156:4227 and 164:4313 were NOT found. Current frames
+    also include `EHS / Home / Desktop / EN (1920) Sample` 162:16950 (holds the section
+    `Check Ups` 162:17020, now Open Data content) and the copy
+    `Check Ups (v2 open data)` 189:5075 (deck content applied, approved 2026-11-23).
 - Component registry (also in `CLAUDE.md`):
   `sub-page-banner` 97:26409; `Pattern / Initiative image card` 145:4114;
   `Pattern / Facility selector item` set 153:4172; `Pattern / Facility details card`
