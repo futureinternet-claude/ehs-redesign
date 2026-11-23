@@ -85,7 +85,7 @@ user approves its decisions.
   variant kept for Home v1 and the 1920 Sample.
   - Open: 4th card image (Global Patient Safety Award 2026) not captured, grey
     placeholder; Events and E-Consultations tab content not designed.
-- Health Care Facilities (2026-11-23, built, awaiting approval): `Health Care Facilities
+- Health Care Facilities (2026-11-23, approved): `Health Care Facilities
   (v2 hours)` 206:4625 in Home v2, old selector + map section 150:14714 hidden. Pattern
   `facility-finder-hours-timeline` (user's ref). H2 + View All; emirate tabs "All" [new
   label] + the 6 live emirates (no Abu Dhabi on the live filter); `Container / Facilities
