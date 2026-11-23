@@ -85,6 +85,18 @@ user approves its decisions.
   variant kept for Home v1 and the 1920 Sample.
   - Open: 4th card image (Global Patient Safety Award 2026) not captured, grey
     placeholder; Events and E-Consultations tab content not designed.
+- Health Care Facilities (2026-11-23, built, awaiting approval): `Health Care Facilities
+  (v2 hours)` 206:4625 in Home v2, old selector + map section 150:14714 hidden. Pattern
+  `facility-finder-hours-timeline` (user's ref). H2 + View All; emirate tabs "All" [new
+  label] + the 6 live emirates (no Abu Dhabi on the live filter); `Container / Facilities
+  panel` (white, radius-2xl, same shadow as the Services category panel) with 4
+  `Pattern / Facility hours row` instances: live name, type · location, full live hours
+  text, hours bar = main weekday range (Almadar 08-18, Alshrooq 07:30-22, Alnahwa 08-13,
+  Abu Mousa 08-14), Directions (live map link on each detail page) + View Details.
+  - Not shown (no real-time data): "open right now" line, Open now badge, now marker,
+    "x of y shown". Map and `Pattern / Facility details card` no longer used on Home v2.
+  - Aegov-Range was planned for the bar but its fill cannot be positioned per instance;
+    replaced by a token-bound track (tell the user if a library fix is wanted).
 - Health Care Facilities: selectable list on the left (name and location), map on the
   right with the details card inside it (type, full hours, location, Directions and Call
   buttons, View Details). Open: captured map image, each centre's coordinates, phone

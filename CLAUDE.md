@@ -61,6 +61,7 @@ these unless asked.
 | `Pattern / Facility details card` | custom container | Local Components | 154:4171 | Name, Hours, Location; facility type badge exposed | Home (Facilities) |
 | `Pattern / Deck card` | custom container set | Local Components | 163:4316 | Tone = camel / aegreen / seablue / primary; Title, Description, Meta, Icon; audience badge exposed | Home (Prevention) |
 | `Pattern / Service row` | component set | Local Components | 198:5480 | Divider = Yes / No; Title, Body, Duration, Fee, Audience; Start Service link (Aegov-Link) | Home (Services) |
+| `Pattern / Facility hours row` | component set | Local Components | 205:7125 | Divider = Yes / No; Name, Type · location, Hours; `Container / Hours track` (aeblack/100 track, primary/600 open segment; set the open range with the track's left/right padding = closed hours, because Aegov-Range's fill cannot be moved in an instance); Directions button, View Details link | Home (Facilities) |
 
 In-frame containers (not components): `Container / Stacked deck panel` (Prevention
 section), `Container / Facility map` (Facilities section). Home v2 Services 197:5346:
