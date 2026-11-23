@@ -135,6 +135,9 @@ user approves its decisions.
   icon tiles, one-line descriptions [new copy] and live "View All ( n )" links; side
   column "Other services" and "Related links" [new headings] with live links; feature
   card "Doctors" (live label) + [new] line "Find EHS doctors by facility and specialty."
+- User feedback: not full width. Panel hugs its content (left column 520, side column
+  360, about 882 wide), start-aligned under its nav item; the open state's hover area is
+  trimmed to the panel so leaving the panel closes it. Apply to every menu.
 - Next (after feedback): Digital Participations, Open Data, About Us, Media Center,
   Awareness Center with the groupings proposed in the plan.
 
