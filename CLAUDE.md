@@ -60,10 +60,16 @@ these unless asked.
 | `Pattern / Facility selector item` | custom container set | Local Components | 153:4172 | State = Default / Hover / Selected; Name, Location | Home (Facilities) |
 | `Pattern / Facility details card` | custom container | Local Components | 154:4171 | Name, Hours, Location; facility type badge exposed | Home (Facilities) |
 | `Pattern / Deck card` | custom container set | Local Components | 163:4316 | Tone = camel / aegreen / seablue / primary; Title, Description, Meta, Icon; audience badge exposed | Home (Prevention) |
+| `Pattern / Service row` | component set | Local Components | 198:5480 | Divider = Yes / No; Title, Body, Duration, Fee, Audience; Start Service link (Aegov-Link) | Home (Services) |
 
 In-frame containers (not components): `Container / Stacked deck panel` (Prevention
-section), `Container / Facility map` (Facilities section), `Container / Gradient panel
-(Find a doctor)` 194:6343 (Home Services v2, same gradient bindings as the deck panel).
+section), `Container / Facility map` (Facilities section). Home v2 Services 197:5346:
+`body-content` 195:6024 (category panel, user's box: whitely/50, radius-2xl, shadow),
+`Container / Gradient panel (Find a doctor)` 197:5367 (now solid primary/600, white
+text), `Container / Need help` 198:5577 (aegreen/700, white text).
+
+Aegov-Card: use it only when the user asks for it. Boxes in a design are plain
+containers (`Container / <Name>`, values bound to DLS variables), not Aegov-Card.
 
 Card Pattern note: Initiative and News variants use a 176px grey placeholder in `media`.
 
