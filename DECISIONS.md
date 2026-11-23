@@ -124,6 +124,23 @@ user approves its decisions.
 - Service cards use Card Pattern (Property 1 = Service card). The last 4 cards (General
   Dentistry, Inpatient Services, Issue of a Birth Certificate, Issue of a Health Card)
   still need their real text.
+- v2 (2026-11-23, built, awaiting approval): `EHS / Services Directory / Desktop / EN
+  (v2)` 214:5529, a copy of V1 72:3605 (V1 untouched).
+  - Banner: `sub-page-banner` Layout=Search (new variant): left-aligned breadcrumb Home /
+    Services / Services Directory, H1, no subtitle (none live), "Search a service" field;
+    the toolbar search is hidden.
+  - 8 live category tabs (All Services selected; the row is wider than the page, as live).
+  - `Container / Filter panel` (white box, 336 wide, same shadow as the Home panels):
+    approved filter groups + "Clear all" [new label]; Age Group heading fixed to the live
+    "Age Group" (V1 read "Age Group Label").
+  - List view active; `Container / Results panel` with the 12 live page-1 services as
+    `Pattern / Service row`: live durations; fee and audience shortened = [new wording]
+    for approval (Fee by case level, From 250 AED, Free for UAE locals with a health card,
+    Free with a valid health card, Case by case, 65 AED, From 20 AED; Investors and
+    businesses, Residents 18 and above, Parents of newborns, ...). Card grid kept, hidden.
+  - Pagination: live 1-4, page 1 current, Previous disabled.
+  - Not changed (from V1): header, feedback panel, footer (footer still shows sample
+    text such as "Entity name" and info@entity.gov.ae).
 
 ## Service detail template
 - Template for all service detail pages. Layout: NEW (not the 3.0 layout).
