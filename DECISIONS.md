@@ -48,7 +48,7 @@ user approves its decisions.
     Disclaimer: "Use of this data is subject to the Open Data Usage Policy." (links to the
     policy page). Each card links to its dataset page.
   - Approved 2026-11-23 on `Check Ups (v2 open data)` 189:5075. Later the same day
-    (built, awaiting approval): left-column icons ChartBar / Pulse / ChatCircleText; deck
+    (approved): left-column icons ChartBar / Pulse / ChatCircleText; deck
     replaced by the interactive `Pattern / Open Data deck` 209:5464 (instance 209:5489;
     old stage 189:5097 and controls 189:5101 hidden). Card icons: ChartBar, Pulse,
     MapPin, ChartPie, Coins, BookOpen (Fill weight); tones camel, aegreen, seablue,
