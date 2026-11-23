@@ -45,7 +45,8 @@ is bound to DLS variables. The user is a UI/UX designer and front-end developer.
 - Frames on Redesign (4.0):
   - `EHS / Home / Desktop / EN (v1)` 68:2863 (older Home with card patterns)
   - `EHS / Home / Desktop / EN (v2)` 125:8571 (the current Home design; do not edit,
-    work on a copy `(v2 ...)`)
+    work on a copy `(v2 ...)`. Exception 2026-11-23, on the user's instruction: new
+    Services section placed in it as 197:5346, old Services 127:12902 hidden)
   - `EHS / Services Directory / Desktop / EN (V1)` 72:3605
   - `EHS / Service Detail / Desktop / EN (v2 html layout)` 93:3580
   - `EHS / Home / Health Care Facilities (new layout)` 155:4134 (selector + map design,

@@ -52,8 +52,10 @@ user approves its decisions.
     the cards behind the top card not swapped.
   - Open: whether the Prevention section stays anywhere on Home; client approval of the
     new copy.
-- Services (2026-11-23, approved on `Services (v2 panel)` 193:5102, standalone frame; not
-  yet inserted into the Home sample; original `Services` 162:16993 untouched). Pattern
+- Services (2026-11-23, approved on `Services (v2 panel)` 193:5102, standalone frame).
+  Placed in `EHS / Home / Desktop / EN (v2)` 125:8571 as `Services (v2 panel)` 197:5346
+  (user's instruction to edit Home v2 directly); old `Services` 127:12902 hidden, not
+  deleted. Home sample 162:16950 not changed. Pattern
   `services-panel-with-side-actions`, variant B (user's refs):
   - Heading "Services" (live) + "Search a service" field (copied from Services Directory).
   - "Most Used" badge + row of 4 `Card Pattern` Service cards (live Most Used items 1-4;
