@@ -125,6 +125,19 @@ user approves its decisions.
 - Details-on-map card is fixed at the bottom-left of the map (not anchored to the pin);
   the left selector shows only name + location; actions live in the details card.
 
+## Header mega menus (all nav items except Home and AI)
+- Live menu content: `references/main-navigation.md` (2026-11-23).
+- Pilot built 2026-11-23 (awaiting feedback): `Pattern / Mega menu` 221:5771, Services
+  only, on Home v2. The library has no mega menu (Aegov-Dropdown-Panel is a single list),
+  so the panel is a custom container styled like it. The Aegov-Header is untouched; the
+  menu is an overlay instance with hover areas.
+- Services panel: "Service categories" [new heading] with the 5 live categories, Phosphor
+  icon tiles, one-line descriptions [new copy] and live "View All ( n )" links; side
+  column "Other services" and "Related links" [new headings] with live links; feature
+  card "Doctors" (live label) + [new] line "Find EHS doctors by facility and specialty."
+- Next (after feedback): Digital Participations, Open Data, About Us, Media Center,
+  Awareness Center with the groupings proposed in the plan.
+
 ## Services Directory
 - Filter sidebar: Type, Gender, Age Group and Health Condition groups each use an
   Aegov-Label for the heading; options are Aegov-Checkbox instances; Age Group and Health
