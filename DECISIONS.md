@@ -90,6 +90,12 @@ user approves its decisions.
     not Aegov-Card (`Container / Category panel` 195:6024, `Container / Need help`
     198:5577, aegreen/700); rows are `Pattern / Service row` 198:5480 instances; Find a
     doctor is solid primary/600 with white text.
+- Services Most Used cards (2026-11-23): a duration / fee / audience row was tried and
+  REMOVED at the user's request (did not fit). Cards in Home v2 197:5346 now hug content
+  at an equal height of 196 (was a fixed 214). Live values found, for later use:
+  Pre- Employment Medical Examination 24 hours, 266 AED, applicants above 18;
+  Pre-University Fitness Screening 3 working days, 250 AED, students planning to join a
+  university.
 - Our Updates (2026-11-23, approved): `Our Updates (v2 news)` 201:5499 in
   Home v2, old 162:19468 hidden. Pattern `news-carousel-image-cards` (user's ref).
   Eyebrow "Media Center" (live menu name, uppercase via text case), H2 "Our Updates"
@@ -171,6 +177,52 @@ user approves its decisions.
   - Pagination: live 1-4, page 1 current, Previous disabled.
   - Not changed (from V1): header, feedback panel, footer (footer still shows sample
     text such as "Entity name" and info@entity.gov.ae).
+- v3 (2026-11-23, built, awaiting approval): `EHS / Services Directory / Desktop / EN
+  (v3 top filters)` 228:6126, a copy of v2 (v2 untouched). The user chose banner option 3
+  and layout option A (top filter bar, no sidebar, full-width results).
+  - Banner: `sub-page-banner` Layout=Centered Search: centred breadcrumb Home / Services /
+    Services Directory, H1, no subtitle (none live, layer hidden), "Search a service",
+    "Most used:" + 3 live Most used services as Aegov-Checkbox-Pill (Issue of a Health
+    Card, Communicable disease service, Issue of a Birth Certificate), aurora background.
+  - `Container / Filter bar` 228:7171 (aeblack/50 fill, aeblack/200 stroke, radius-2xl,
+    padding spacing-4 / spacing-6): Type, Gender, Age Group, Health Condition, each an
+    Aegov-Label + Aegov-Select (Type and Gender show "All" = [new] placeholder; Age Group
+    "I am a" and Health Condition "I am feeling" live), "Clear all" [new], list/grid
+    toggle on the right (grid active, as live). Old sidebar and toolbar hidden.
+  - Results: 12 live page-1 services as `Card Pattern` Service card in a 3 x 4 grid at
+    full width, titles and descriptions truncated at 2 lines; list panel and old grid
+    hidden. Pagination unchanged.
+  - States frame `EHS / Services Directory / Filter bar states (v3)` 230:5726: Type
+    dropdown open (`Container / Filter dropdown (Type)` 230:5789, white, aeblack/200
+    stroke, radius-xl, shadow-xl, 9 live Aegov-Checkbox, Patient checked) and the
+    active-filter pills row (Aegov-Checkbox-Pill Checked + Clear all).
+  - Card details: a duration / fee / audience `meta` row was tried on the v3 cards and
+    REMOVED the same day at the user's request (it did not fit the card). Cards show
+    title, 2-line description and Start Service only; cards in a row share the tallest
+    card's height. Details stay in the list view (Service rows).
+  - Open: filter bar and dropdown not yet saved as `Pattern / ...` (after approval);
+    selects are single-select components shown for multi-select Type/Gender (no
+    multi-select in the library); search still shows the mic icon.
+
+- v4 (2026-11-23, built, awaiting approval): `EHS / Services Directory / Desktop / EN
+  (v4 side filter)` 237:5850, a copy of v3 (v3 untouched). The user preferred a side
+  filter over the v3 top bar (felt crowded) and chose the collapsible option.
+  - Banner and category tabs as v3 (tabs show Style=simple, as found in v3).
+  - `Container / Filter panel (collapsible)` 237:6778 (same box as v2's filter panel):
+    "Filter" heading + Clear all [new], then 4 groups separated by an aeblack/200 top
+    border. Each group header is a library Aegov-Accordion-Item (Heading = live group
+    name, Divider off, content text hidden); the options sit under it because the item's
+    content is text only. Type expanded: first 5 live options + "Show all (9)" [new
+    label] (the other 4 are hidden in this default state, not dropped). Gender, Age Group
+    and Health Condition collapsed (their checkboxes / selects are kept, hidden).
+    Long labels wrap.
+  - Results: list view active, the 12 live Service rows with duration / fee / audience
+    (as v2); the v3 card grid and top filter bar are hidden. Pagination unchanged.
+  - Prototype (2026-11-23, user's OK): the 4 groups are now instances of the interactive
+    `Pattern / Filter group / ...` sets (Type starts Expanded, others Collapsed); click a
+    header to open/close, "Show all (9)" opens all 9 Type options. Static groups kept,
+    hidden. Flow starting point "Services Directory v4 (side filter)" added on the page.
+  - Open: a selected-state frame (counts in headers, chips) not built; no "Show less".
 
 ## Service detail template
 - Template for all service detail pages. Layout: NEW (not the 3.0 layout).
@@ -183,3 +235,49 @@ user approves its decisions.
   launcher, survey / customer pulse widget.
 - Typos in source text stay as live text until the user approves fixes (list in the
   outline).
+- v3 redesign (2026-11-23, built, awaiting approval): `EHS / Service Detail / Desktop / EN
+  (v3 summary card)` 245:6771, a copy of 93:3580 (untouched). New layout, live content
+  of Child Health and Vaccinations only. Inspiration: the user's "appointment card"
+  screenshot (eyebrow pill, status badge, title, date tile, dark panel), mapped to live
+  content; floating elements left out.
+  - Hero: aurora background (same glow as the banner), breadcrumb, badges Social /
+    Variation (the leftover "Governmental facilities: Free" badge, not live for this
+    service, is hidden), H1, intro, actions row under the intro (Start Service first, then
+    share / print / download).
+  - `Container / Service summary card` (white, aeblack/200 stroke, radius-2xl,
+    shadow-xl, 600 wide): Service channels label + 4 badges; Target audience label +
+    aegreen badge with the live fee; audience as title; Service Limitations line;
+    `Container / Duration row` (tile "30 / mins", "Service completion duration", live
+    timings line); `Container / Process preview` (primary/700, 4 numbered dots, first
+    step text, "4 steps" = [new]).
+  - Body: `Container / On this page` (vertical Aegov-Tab, Style=simple, 6 live section
+    names; sticky in build) + main column: Service Process as 4 `Container / Step card`
+    (aeblack/50, radius-2xl, equal height); `Container / Before you go panel`
+    (aeblack/50) with Conditions & Requirements (CheckCircle icons) and a white
+    `Container / Required Documents` box (FileText icons); Service locations with 6
+    emirate pill tabs and `Container / Location chip` (MapPin) for all 54 live centres
+    (Dubai shown, other emirates hidden per tab), timings line + Health Care Facilities
+    link; FAQ's (5 live Aegov-Accordion-Items, first open) beside `Container / Help panel`
+    (primary/600, EnvelopeSimple, live heading, "Click here to email us" button);
+    Related Services moved in unchanged. Old key facts and columns hidden.
+  - Declutter pass (user: "too much text in one area"): the summary card keeps only
+    Target audience + title, the duration tile with the fee badge, and the Process
+    preview dots ("4 steps"). Moved out, nothing dropped: Service channels = one Body SM
+    line under the hero actions; Service Limitations = first row of Conditions &
+    Requirements; the timings sentence stays under Service locations (hidden in the
+    card); step 1 text hidden in the dark panel. FAQs all start collapsed; main column
+    gap spacing-16; Before you go panel padding spacing-12; On this page tabs Size=sm.
+  - User's own cleanup (2026-11-23): Start Service + share/print/download moved into the
+    summary card, Process preview removed, On this page = floating card on the right,
+    content in one white panel, Conditions and Required Documents stacked, Help panel
+    under the FAQs.
+  - Service Process (user's request): horizontal library Aegov-Timeline 253:7502
+    (Style=default, Size=lg), 4 steps with the full live step text as Label, Description
+    off, every step Status=active (no fake progress), all connectors dashed, steps fill
+    the width equally (280 each). Step cards row hidden, not deleted.
+  - Rule from the user: Clip content OFF on every auto-layout frame I create.
+  - Replaces two approved decisions for this version (key facts in a bento grid,
+    vertical Aegov-Timeline) - to be confirmed by the user.
+  - Open: the moved `section/Related Services` frame has an unbound white fill (from the
+    original); prototype (tabs, accordion, nav) not wired; reference screenshot not yet
+    saved to the inspiration library (after approval).

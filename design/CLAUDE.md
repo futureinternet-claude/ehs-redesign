@@ -12,6 +12,9 @@ Project facts are in `../CLAUDE.md`; page decisions in `../DECISIONS.md`.
   fonts. No detached instances. Never hand-draw what the library has.
 - Set the project's brand colour mode on every top-level frame you create.
 - Layout frames have NO fill (`fills = []` in the same script that creates them).
+- Auto-layout frames and containers I create: Clip content OFF (`clipsContent = false`
+  in the same script). Only exception: a hero/banner that must crop its absolute aurora
+  glow layer. (User rule, 2026-11-23.)
 - Custom boxes: `Container / <Name>`, every value bound to DLS variables, WCAG AA.
 - Copy 100% of the live (or supplied) content. Never invent text or translations.
 - If no 4.0 component exists for something, do not invent one: ask (Open items).

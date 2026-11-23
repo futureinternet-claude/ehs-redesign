@@ -5,6 +5,12 @@ description: How to use the EHS local page-banner component (sub-page-banner, id
 
 # EHS page banner (all sub-pages; Home and Service detail excluded)
 
+Update 2026-11-23: the component set is now 214:5528 with Layout = Centered (97:26409),
+Search (214:5496) and Centered Search (228:5982, the user's chosen option 3: centred
+content, aurora glow background, search + "Most used:" quick-link pills). Use Centered
+Search on listing pages with a search; it is first used on Services Directory v3
+228:6126. The rules below were written for the original Centered layout.
+
 The banner is a LOCAL COMPONENT. Use an instance of it on every sub-page; never rebuild
 it, copy the frames, or detach it.
 - Component: `sub-page-banner` (id 97:26409), on the "Local Components" page of the

@@ -54,7 +54,7 @@ these unless asked.
 ## Component registry (local components; keep this table current)
 | Component | Kind | Figma page | ID | Properties / variants | Used on |
 |---|---|---|---|---|---|
-| `sub-page-banner` | component set | Local Components | 214:5528 | Layout = Centered (97:26409, the original) / Search (214:5496: left-aligned, "Search a service" Aegov-Input in the Content slot; proposed for Services Directory v2, awaiting approval); Page Title, Page Subtitle, Content slot. Measured 270 high on 2026-11-23 | all sub-pages |
+| `sub-page-banner` | component set | Local Components | 214:5528 | Layout = Centered (97:26409, the original) / Search (214:5496: left-aligned, "Search a service" Aegov-Input in the Content slot; proposed for Services Directory v2, awaiting approval) / Centered Search (228:5982, added 2026-11-23: option 3 chosen by the user; centred breadcrumb, H1, subtitle, search and a "Most used:" row of Aegov-Checkbox-Pill quick links in the Content slot; background = primary/50 to whitely/50 gradient plus an absolute `Aurora glow` layer of 4 blurred token-bound ellipses (seablue/100, camel/50, aegreen/100, primary/100), like the Home v2 hero; 395 high with subtitle); Page Title, Page Subtitle, Content slot. Measured 270 high on 2026-11-23 | all sub-pages |
 | `Card Pattern` | component set | Local Components | 117:6259 | Property 1 = Service / Initiative / News / Facility card; News card v2 201:5479 (plain container, not Aegov-Card: image 240 + white fade, date, category badge, title 3 lines, View Details; props News title, News date); also found: Service Card V2, Variant7, Home Selection Cards (not yet reviewed) | Home, Services Directory |
 | `Pattern / Initiative image card` | custom container | Local Components | 145:4114 | Title, Body. Scrim = aeblack-950 value, 0 to 92% fade (a gradient stop bound to a variable loses transparency). Sits as variant `Property 1=Initiative image card` in set `Pattern` 148:14476 | Home (Initiatives) |
 | `Pattern / Facility selector item` | custom container set | Local Components | 153:4172 | State = Default / Hover / Selected; Name, Location | Home (Facilities) |
@@ -65,6 +65,7 @@ these unless asked.
 | `Pattern / Our Updates carousel` | component set (interactive) | Local Components | 213:5856 | Tab = News / Events / E-Consultations × Position (2, 2, 3); tab click = Dissolve 200 ms to Position 1; arrows = Smart Animate 300 ms, disabled at the ends; cards = Card Pattern News card v2 / E-Consultation card 212:5042 (props renamed Card title, Card date) | Home v2 Our Updates |
 | `Pattern / Initiative slider` | component set (interactive) | Local Components | 218:5739 | State = 1..4 (Tameni, Youth Voice, Nursing Scholarships, Promotional Campaign for Telemedicine Services); heading row + clipped `viewport` with a `track` of all 4 slides (photo, badge, title, description, Know More), track offset per state so Smart Animate slides sideways; arrows = Smart Animate 300 ms, disabled at the ends | Home v2 Latest Initiatives |
 | `Pattern / Mega menu` | component set (interactive) | Local Components | 221:5771 | State = Closed / Services / Digital Participation / Open Data / About Us / Media Center / Awareness Center; every state has hover areas for all 6 items (Mouse enter switches). Invisible hover areas over the Aegov-Header nav items (Mouse enter = open, Mouse leave on the open state = close); hovered item = Aegov-Navbar-Item State=Hover, Submenu on, on a white mask; panel `Container / Mega menu panel` (whitely-50, aeblack-200 border, radius-xl, shadow-xl) with categories left, tinted aeblack/50 side column, `Container / Menu feature card` (primary/700). Instance placed absolutely over the nav row (x 0, y 132) | Home v2 (221:5774) |
+| `Pattern / Filter group / Type`, `/ Gender`, `/ Age Group`, `/ Health Condition` | component sets (interactive) | Local Components | 238:7883, 238:7916, 238:7947, 238:7978 | State = Collapsed / Expanded (Type also Expanded all: first 5 options + "Show all (9)" [new] in Expanded, all 9 in Expanded all). Header = Aegov-Accordion-Item (Divider off, content text hidden); options under it = Aegov-Checkbox / Aegov-Select; top border aeblack/200. On click header = Change to the other state, Show all = Change to Expanded all, Smart Animate 200 ms ease out | Services Directory v4 237:5850 |
 | `Pattern / Facility hours row` | component set | Local Components | 205:7125 | Divider = Yes / No; Name, Type · location, Hours; `Container / Hours track` (aeblack/100 track, primary/600 open segment; set the open range with the track's left/right padding = closed hours, because Aegov-Range's fill cannot be moved in an instance); Directions button, View Details link | Home (Facilities) |
 
 In-frame containers (not components): `Container / Stacked deck panel` (Prevention
@@ -78,6 +79,13 @@ Aegov-Card: use it only when the user asks for it. Boxes in a design are plain
 containers (`Container / <Name>`, values bound to DLS variables), not Aegov-Card.
 
 Card Pattern note: Initiative and News variants use a 176px grey placeholder in `media`.
+
+Card Pattern Service card (67:2853), lesson 2026-11-23: do NOT append anything to the
+variant's `body-content` slot. It replaced the slot's default nodes, wiped the title and
+body overrides on every instance that used the default content (V1 Services Directory),
+and component properties cannot be bound inside the slot. The default title/body were
+rebuilt (234:7148, 234:7149) and the 9 V1 cards re-filled with live text. Add extras
+(for example the `meta` row) to each instance's own slot instead.
 
 ## Tidy-up queue (needs the user's OK before doing any of it)
 - Rename `Card Pattern`'s "Property 1" to "Type" (it is already on Local Components);
