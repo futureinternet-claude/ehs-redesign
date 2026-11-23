@@ -52,6 +52,25 @@ user approves its decisions.
     the cards behind the top card not swapped.
   - Open: whether the Prevention section stays anywhere on Home; client approval of the
     new copy.
+- Services (2026-11-23, approved on `Services (v2 panel)` 193:5102, standalone frame; not
+  yet inserted into the Home sample; original `Services` 162:16993 untouched). Pattern
+  `services-panel-with-side-actions`, variant B (user's refs):
+  - Heading "Services" (live) + "Search a service" field (copied from Services Directory).
+  - "Most Used" badge + row of 4 `Card Pattern` Service cards (live Most Used items 1-4;
+    the 5th, Submit Medical Complaints, via View all).
+  - Category tabs: the 5 live categories only (All Services, Most Used, My Favourites
+    dropped from this row); Health, prevention and periodic Screening selected.
+  - Category panel = Aegov-Card lg: category name as title, no lede (none live), 4
+    full-width rows in live tab order (no overlap with Most Used): title, 2-line excerpt,
+    meta (duration live; fee and audience shortened = [new wording], approved), Start
+    Service on the right; "View all Services" in the footer.
+  - "Track your application" replaced by "Find a doctor" (gradient panel): Facility and
+    Specialty selects + Search -> /en/services/doctors (380 doctors, no booking on the
+    live page). "Need help?" Aegov-Card with live channels (Toll free call 8008877,
+    Working Time 7:30 AM-3:30 PM, info@ehs.gov.ae, Tawasul 171) + Contact Us. No live chat.
+  - Open: search field still shows the mic icon (copied as approved on the directory);
+    rows are frames, candidate `Pattern / Service row` if reused on Service listing;
+    client approval of the [new] copy.
 - Health Care Facilities: selectable list on the left (name and location), map on the
   right with the details card inside it (type, full hours, location, Directions and Call
   buttons, View Details). Open: captured map image, each centre's coordinates, phone
