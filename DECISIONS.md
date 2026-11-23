@@ -18,6 +18,13 @@ user approves its decisions.
 - Reusing a section's layout for new content: change the card text, counter, disclaimer
   and icons together; no leftover text or icons from the old content.
 - Latest Initiatives: image-led cards in 4 columns (`Pattern / Initiative image card`).
+  Home v2 (user's redesign, then prototype built 2026-11-23, awaiting approval): one large
+  slide (photo left; badge, title, description, Know More right) as the interactive
+  `Pattern / Initiative slider` 218:5739 (instance 218:5758; old heading row 133:14341 and
+  slide 195:6464 hidden). 4 live initiatives with live descriptions; photos from the
+  "Initiative cards" frame (Tameni keeps the user's photo). Badge taglines are new copy
+  for approval: Keeping Families Informed (user's), Empowering Young Talent, Building
+  Future Nurses, Digital Health Services.
 - Prevention check-ups (new section, not on the live site), placed after Latest
   Initiatives: stacked deck, state 1 of 4 shown (card 1 on top, two plain cards behind).
   Content comes from the user's brief. Open: clinical sign-off on ages and intervals, CTA
