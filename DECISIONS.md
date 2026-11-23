@@ -76,7 +76,7 @@ user approves its decisions.
     not Aegov-Card (`Container / Category panel` 195:6024, `Container / Need help`
     198:5577, aegreen/700); rows are `Pattern / Service row` 198:5480 instances; Find a
     doctor is solid primary/600 with white text.
-- Our Updates (2026-11-23, built, awaiting approval): `Our Updates (v2 news)` 201:5499 in
+- Our Updates (2026-11-23, approved): `Our Updates (v2 news)` 201:5499 in
   Home v2, old 162:19468 hidden. Pattern `news-carousel-image-cards` (user's ref).
   Eyebrow "Media Center" (live menu name, uppercase via text case), H2 "Our Updates"
   (live), no lede; "View all" outline button + arrows on the right; live tabs News /
