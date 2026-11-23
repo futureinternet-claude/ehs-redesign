@@ -62,7 +62,8 @@ these unless asked.
 | `Pattern / Deck card` | custom container set | Local Components | 163:4316 | Tone = camel / aegreen / seablue / primary; Title, Description, Meta, Icon; audience badge exposed | Home (Prevention) |
 
 In-frame containers (not components): `Container / Stacked deck panel` (Prevention
-section), `Container / Facility map` (Facilities section).
+section), `Container / Facility map` (Facilities section), `Container / Gradient panel
+(Find a doctor)` 194:6343 (Home Services v2, same gradient bindings as the deck panel).
 
 Card Pattern note: Initiative and News variants use a 176px grey placeholder in `media`.
 
