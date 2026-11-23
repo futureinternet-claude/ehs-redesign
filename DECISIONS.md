@@ -18,7 +18,8 @@ user approves its decisions.
 - Reusing a section's layout for new content: change the card text, counter, disclaimer
   and icons together; no leftover text or icons from the old content.
 - Latest Initiatives: image-led cards in 4 columns (`Pattern / Initiative image card`).
-  Home v2 (user's redesign, then prototype built 2026-11-23, awaiting approval): one large
+  Home v2 (user's redesign, then prototype built and approved 2026-11-23, taglines
+  approved): one large
   slide (photo left; badge, title, description, Know More right) as the interactive
   `Pattern / Initiative slider` 218:5739 (instance 218:5758; old heading row 133:14341 and
   slide 195:6464 hidden). 4 live initiatives with live descriptions; photos from the
