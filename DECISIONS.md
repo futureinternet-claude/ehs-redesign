@@ -124,7 +124,7 @@ user approves its decisions.
     component). Events tab: 4 live events (photos not captured, placeholders);
     E-Consultations tab: 5 live items on the new E-Consultation card (status badge
     Current = aegreen, Planned = neutral; "Closing/Opening dd/mm/yyyy").
-- Facility finder (2026-11-24, built, awaiting approval; edited in Home v2 288:11107, the
+- Facility finder (2026-11-24, built, APPROVED by the user 2026-11-24; edited in Home v2 288:11107, the
   newer of the two frames named `EHS / Home / Desktop / EN (v2)`; 195:7264 untouched):
   section `Health Care Facilities (v3 finder)` 292:13104 with `Pattern / Facility finder`
   292:11920 (instance 292:13122). The map version (288:11325) and the hours list version
