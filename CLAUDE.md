@@ -51,6 +51,13 @@ Other About detail pages (same template as #8, only to check content variations)
 All other pages follow one of these templates. Do not design individual pages beyond
 these unless asked.
 
+## Content page rules (templates 8 and 9; learned from the approved About detail, 2026-11-24)
+- Content runs the full 1488 width (content frame padding spacing-6 left/right), not a
+  narrow centred column.
+- The first section pairs an image with its text side by side, image on the left
+  (radius bound to a DLS radius variable), text vertically centred.
+- `sub-page-banner`: leave the subtitle off when the live page has none.
+
 ## Component registry (local components; keep this table current)
 | Component | Kind | Figma page | ID | Properties / variants | Used on |
 |---|---|---|---|---|---|
