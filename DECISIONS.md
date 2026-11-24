@@ -124,6 +124,14 @@ user approves its decisions.
     component). Events tab: 4 live events (photos not captured, placeholders);
     E-Consultations tab: 5 live items on the new E-Consultation card (status badge
     Current = aegreen, Planned = neutral; "Closing/Opening dd/mm/yyyy").
+- Facility cards (2026-11-24, built, awaiting approval): the user asked for cards like the
+  live site (reference screenshot) with icons and View Details + Get Directions on each,
+  keeping the emirate tabs and Centres near me. `Pattern / Facility card finder` 310:13535,
+  instance 311:8946 inside `Health Care Facilities` 304:17699 of Home frame 304:17505
+  (name is a blank space; the user removed frame 288:11107 and the map finder from this
+  section). Cards = Card Pattern Facility card (Aegov-Card), icons FirstAid / Clock / MapPin
+  (DLS icons) in primary/600, "Get Directions" [new wording], equal heights per row.
+  "Alnahwa Health Center" keeps the corrected spelling (live: "Helth").
 - Facility finder (2026-11-24, built, APPROVED by the user 2026-11-24; edited in Home v2 288:11107, the
   newer of the two frames named `EHS / Home / Desktop / EN (v2)`; 195:7264 untouched):
   section `Health Care Facilities (v3 finder)` 292:13104 with `Pattern / Facility finder`
