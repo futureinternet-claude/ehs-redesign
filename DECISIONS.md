@@ -223,7 +223,7 @@ user approves its decisions.
     header to open/close, "Show all (9)" opens all 9 Type options. Static groups kept,
     hidden. Flow starting point "Services Directory v4 (side filter)" added on the page.
   - Open: a selected-state frame (counts in headers, chips) not built; no "Show less".
-  - List/grid toggle (2026-11-24, user's OK, edited in v4 directly): toolbar + results now
+  - List/grid toggle (2026-11-24, APPROVED by the user, edited in v4 directly): toolbar + results now
     one instance of the new interactive `Pattern / Service results` 264:9016 (starts in
     List). Click Grid = the same 12 live services as Card Pattern Service cards, 3 per
     row (title, 2-line description, Start Service, as approved in v3); click List =
