@@ -90,7 +90,7 @@ user approves its decisions.
     not Aegov-Card (`Container / Category panel` 195:6024, `Container / Need help`
     198:5577, aegreen/700); rows are `Pattern / Service row` 198:5480 instances; Find a
     doctor is solid primary/600 with white text.
-  - Working category tabs (2026-11-24, built, awaiting approval; edited in Home v2
+  - Working category tabs (2026-11-24, built, APPROVED by the user 2026-11-24; edited in Home v2
     directly): the category panel is now an instance of the interactive
     `Pattern / Service category tabs` 273:9582 (starts on Health prevention); the old
     panel is kept, hidden, "(old)". Click any tab = that category, Dissolve 200 ms.
