@@ -90,6 +90,19 @@ user approves its decisions.
     not Aegov-Card (`Container / Category panel` 195:6024, `Container / Need help`
     198:5577, aegreen/700); rows are `Pattern / Service row` 198:5480 instances; Find a
     doctor is solid primary/600 with white text.
+  - Working category tabs (2026-11-24, built, awaiting approval; edited in Home v2
+    directly): the category panel is now an instance of the interactive
+    `Pattern / Service category tabs` 273:9582 (starts on Health prevention); the old
+    panel is kept, hidden, "(old)". Click any tab = that category, Dissolve 200 ms.
+    Rows per tab = the first services of that category in the live Services menu
+    (Customer service: first 4 of 5 in the directory, the menu lists none). 9 services
+    captured from their live pages into references/home-services-tabs.md; descriptions
+    verbatim (live typos kept); duration / fee / audience shortened = [new wording]
+    (layer names say so). New: "View All ( n )" link under each panel (live menu
+    wording and counts; Customer service count 5 from the directory list). Icons:
+    Stethoscope, FirstAid, FileText, Headset (UAE DLS icons, Weight=Regular). The tab
+    row is wider than the panel (as before); it now scrolls sideways in the prototype so
+    the 5th tab can be reached.
 - Services Most Used cards (2026-11-23): a duration / fee / audience row was tried and
   REMOVED at the user's request (did not fit). Cards in Home v2 197:5346 now hug content
   at an equal height of 196 (was a fixed 214). Live values found, for later use:
