@@ -303,13 +303,25 @@ user approves its decisions.
     saved to the inspiration library (after approval).
 
 ## About detail (content page) — Health Knowledge Management Strategy
-- Built 2026-11-24, APPROVED by the user 2026-11-24 after their own edits in Figma (not yet reviewed here): `EHS / About Detail / Desktop / EN (v1)` 259:7106.
+- Built 2026-11-24, APPROVED by the user 2026-11-24 after their own edits in Figma
+  (reviewed 2026-11-24): `EHS / About Detail / Desktop / EN (v1)` 259:7106.
   Outline: `references/health-knowledge-management-strategy.md`.
-- Layout: header (+ mega menu overlay), `sub-page-banner` Layout=Centered (breadcrumb Home
+- The user's edits (the approved state; the original build notes follow):
+  - Content runs the full 1488 width (content frame padding spacing-6 left/right,
+    spacing-12 top/bottom, section gap spacing-16) instead of a centred 1200 column.
+  - `Container / Mission panel` hidden (section / Mission 260:7572), so the live H2
+    "Knowledge Management Mission: Sustainable institution memory with strong
+    infrastructures" is not shown at the moment.
+  - Introduction opens with `Image + Description Box` 262:9598: a photo (hands holding a
+    brain, 684x460, radius 20 unbound) left and H2 "Introduction" + 2 paragraphs right,
+    gap spacing-15, centred vertically. Then the "two types" lead and the 2 knowledge-type
+    boxes below at full width.
+  - Banner: Centered, no subtitle, 220 high.
+- Original build layout: header (+ mega menu overlay), `sub-page-banner` Layout=Centered (breadcrumb Home
   / About us / page; H1; no subtitle), one centred 1200 column (no "On this page" list, the
   user's choice), sections in different layouts:
   - `Container / Mission panel` (primary/700, white text) with grey image placeholder
-    (live knowledge.png not captured).
+    (live knowledge.png not captured). Hidden by the user.
   - Introduction: 2 paragraphs + "two types" split into `Container / Knowledge type`
     boxes (Explicit / Tacit, icon tile, aeblack/50).
   - Strategic approach: lede + 3 `Container / Theme` boxes (01/02/03, title, definition,
