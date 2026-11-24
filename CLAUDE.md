@@ -87,7 +87,20 @@ and component properties cannot be bound inside the slot. The default title/body
 rebuilt (234:7148, 234:7149) and the 9 V1 cards re-filled with live text. Add extras
 (for example the `meta` row) to each instance's own slot instead.
 
+## Local Components sections (since 2026-11-24)
+Every component lives inside a labelled Figma Section on `Local Components`; nothing loose:
+- `Banners & navigation` 258:8278: sub-page-banner, Pattern / Mega menu
+- `Cards` 258:8279: Card Pattern, Pattern (Initiative image card), Pattern / Deck card,
+  Pattern / Facility details card
+- `Rows & list items` 258:8280: Pattern / Service row, Pattern / Facility hours row,
+  Pattern / Facility selector item
+- `Filters` 258:8281: the 4 Pattern / Filter group sets
+- `Interactive sections` 258:8282: Pattern / Open Data deck, Pattern / Our Updates
+  carousel, Pattern / Initiative slider
+Rule: put each new component straight into the section it belongs to (to the right of the
+last item, same spacing); add a new labelled section only when no existing one fits, and
+tell the user.
+
 ## Tidy-up queue (needs the user's OK before doing any of it)
 - Rename `Card Pattern`'s "Property 1" to "Type" (it is already on Local Components);
-  review the 3 unlisted variants; group components into Sections; create the Archive page
-  for v1 frames.
+  review the 3 unlisted variants; create the Archive page for v1 frames.
