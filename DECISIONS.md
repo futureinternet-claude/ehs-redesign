@@ -217,7 +217,7 @@ user approves its decisions.
     selects are single-select components shown for multi-select Type/Gender (no
     multi-select in the library); search still shows the mic icon.
 
-- v4 (2026-11-23, built, awaiting approval): `EHS / Services Directory / Desktop / EN
+- v4 (2026-11-23, built, APPROVED by the user 2026-11-24): `EHS / Services Directory / Desktop / EN
   (v4 side filter)` 237:5850, a copy of v3 (v3 untouched). The user preferred a side
   filter over the v3 top bar (felt crowded) and chose the collapsible option.
   - Banner and category tabs as v3 (tabs show Style=simple, as found in v3).
@@ -303,7 +303,7 @@ user approves its decisions.
     saved to the inspiration library (after approval).
 
 ## About detail (content page) — Health Knowledge Management Strategy
-- Built 2026-11-24 (awaiting approval): `EHS / About Detail / Desktop / EN (v1)` 259:7106.
+- Built 2026-11-24, APPROVED by the user 2026-11-24 after their own edits in Figma (not yet reviewed here): `EHS / About Detail / Desktop / EN (v1)` 259:7106.
   Outline: `references/health-knowledge-management-strategy.md`.
 - Layout: header (+ mega menu overlay), `sub-page-banner` Layout=Centered (breadcrumb Home
   / About us / page; H1; no subtitle), one centred 1200 column (no "On this page" list, the
