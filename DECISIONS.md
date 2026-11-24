@@ -124,6 +124,25 @@ user approves its decisions.
     component). Events tab: 4 live events (photos not captured, placeholders);
     E-Consultations tab: 5 live items on the new E-Consultation card (status badge
     Current = aegreen, Planned = neutral; "Closing/Opening dd/mm/yyyy").
+- Facility finder (2026-11-24, built, awaiting approval; edited in Home v2 288:11107, the
+  newer of the two frames named `EHS / Home / Desktop / EN (v2)`; 195:7264 untouched):
+  section `Health Care Facilities (v3 finder)` 292:13104 with `Pattern / Facility finder`
+  292:11920 (instance 292:13122). The map version (288:11325) and the hours list version
+  (288:11339) are hidden, not deleted.
+  - Emirate tabs: All + the 6 live emirates; each tab shows the live first 4 centres of
+    that emirate (live order) and the first centre in the details card. No counts: the
+    live site shows 12 per page and no totals.
+  - "Centres near me" [new wording] button + Aegov-Callout states: Asking (info, "Allow
+    location access to see the health care centres nearest to you." Turn on location /
+    Not now), Found (success, "Showing the health care centres nearest to your
+    location."), Off (warning, "Location access is off. Turn it on in your browser
+    settings, or choose an emirate above."). All callout texts [new wording].
+  - Found uses the Dubai list with [sample distance] values (2.1 / 4.8 / 6.3 / 9.5 km) and a
+    "You are here" marker; real distances come from geolocation in the build.
+  - Map base is still the single placeholder map; the pin does not move per emirate. In
+    the build the map recentres on the emirate or the user's location.
+  - Library additions used: Aegov-Callout 7a95c212d68ec3b15ed6f48d4c07d0a7a5362793,
+    Crosshair (DLS icons, Weight=Regular) e22ea51734a517c0edf329c2e24f0e0b950f8cea.
 - Health Care Facilities (2026-11-23, approved): `Health Care Facilities
   (v2 hours)` 206:4625 in Home v2, old selector + map section 150:14714 hidden. Pattern
   `facility-finder-hours-timeline` (user's ref). H2 + View All; emirate tabs "All" [new
