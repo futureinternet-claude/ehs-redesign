@@ -281,3 +281,26 @@ user approves its decisions.
   - Open: the moved `section/Related Services` frame has an unbound white fill (from the
     original); prototype (tabs, accordion, nav) not wired; reference screenshot not yet
     saved to the inspiration library (after approval).
+
+## About detail (content page) — Health Knowledge Management Strategy
+- Built 2026-11-24 (awaiting approval): `EHS / About Detail / Desktop / EN (v1)` 259:7106.
+  Outline: `references/health-knowledge-management-strategy.md`.
+- Layout: header (+ mega menu overlay), `sub-page-banner` Layout=Centered (breadcrumb Home
+  / About us / page; H1; no subtitle), one centred 1200 column (no "On this page" list, the
+  user's choice), sections in different layouts:
+  - `Container / Mission panel` (primary/700, white text) with grey image placeholder
+    (live knowledge.png not captured).
+  - Introduction: 2 paragraphs + "two types" split into `Container / Knowledge type`
+    boxes (Explicit / Tacit, icon tile, aeblack/50).
+  - Strategic approach: lede + 3 `Container / Theme` boxes (01/02/03, title, definition,
+    objectives with CheckCircle).
+  - Policy statement: paragraphs, "International standards" [new copy] grid of 6
+    `Container / Standard tile`, leadership commitments as numbered 2-column list,
+    `Container / Closing note` (primary/50).
+  - Feedback panel and footer cloned from Services Directory v2.
+- Wording: the user asked to correct the live typos and grammar. Every corrected text
+  layer is marked [corrected wording] for the client to check (e.g. "considered as" ->
+  "is", "invest on" -> "invest in", "institution memory" -> "institutional memory",
+  "Generation 04" -> "Generation 4", verb forms in the commitments list).
+- Banner fix: all `sub-page-banner` variants were stuck at a fixed 120 height (after the
+  set was made); restored to hug content (Centered 270, Search 334).
